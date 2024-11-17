@@ -21,12 +21,18 @@ export default function FooterList({
 }: FooterListProps) {
   return (
     <div className={`flex justify-start items-start flex-col `}>
-      <p className="font-bold mb-3">{title}</p>
+      <p className="bold-20 mb-3">{title}</p>
       <ul className={`flex justify-start items-start  gap-6 ${direction}`}>
         {type === "list" ? (
           <>
-            {links.map((link) =>
-              typeof link === "string" ? <Link href="/">{link}</Link> : ""
+            {links.map((link, index) =>
+              typeof link === "string" ? (
+                <Link href="/" key={index}>
+                  {link}
+                </Link>
+              ) : (
+                ""
+              ),
             )}
           </>
         ) : (
@@ -34,14 +40,15 @@ export default function FooterList({
         )}
         {type === "contact" ? (
           <>
-            {links.map((link) =>
+            {links.map((link, index) =>
               typeof link !== "string" ? (
-                <p className="font-semibold">
-                  {link.label}: <span className="font-normal">{link.value}</span>
+                <p className="font-semibold" key={index}>
+                  {link.label}:{" "}
+                  <span className="font-normal">{link.value}</span>
                 </p>
               ) : (
                 ""
-              )
+              ),
             )}
           </>
         ) : (
@@ -49,17 +56,18 @@ export default function FooterList({
         )}
         {type === "social" ? (
           <>
-            {links.map((link) =>
+            {links.map((link, index) =>
               typeof link === "string" ? (
                 <Image
                   src={link}
                   alt="social_link"
                   width={26}
                   height={26}
+                  key={index}
                 ></Image>
               ) : (
                 ""
-              )
+              ),
             )}
           </>
         ) : (

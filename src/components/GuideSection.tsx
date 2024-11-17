@@ -3,8 +3,8 @@ import React from "react";
 
 export default function GuideSection() {
   return (
-    <section className="flexCenter flex-col max-container padding-container">
-      <div className="flexBetween w-full gap-3 flex-wrap   pb-24">
+    <section className="flexCenter flex-col max-container padding-container pb-20">
+      <div className="flexBetween w-full gap-3 flex-wrap pb-24">
         <div className="flex-col">
           <Image
             src="/img/camp.svg"

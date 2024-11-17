@@ -5,7 +5,7 @@ import FooterList from "./FooterList";
 export default function Footer() {
   return (
     <footer className="padding-container max-container">
-      <div className="flex justify-between items-start w-full">
+      <div className="flex flex-col lg:flex-row gap-y-7 justify-between items-start w-full">
         <Image
           src="/img/hilink-logo.svg"
           alt="hilink_logo"

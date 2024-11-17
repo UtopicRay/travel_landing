@@ -19,7 +19,7 @@ export default function CampSection() {
         ></Camp>
       </div>
       <div className="flexEnd px-6">
-        <div className="w-full bg-green-50 lg:max-w-[200px] 2xl:max-w-[768px] p-6 rounded-3xl xl:rounded-5xl lg:mt-[-200px] z-30">
+        <div className="w-full mt-12 bg-green-50 lg:max-w-[200px] 2xl:max-w-[768px] p-6 rounded-3xl xl:rounded-5xl lg:mt-[-200px] z-30">
           <h2 className="text-white regular-24 md:regular-32 xl:regular-64">
             <strong>Lorem ipsum dolor sit amet</strong> consectetur adipisicing
             elit. La?
