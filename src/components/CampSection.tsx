@@ -25,7 +25,7 @@ export default function CampSection() {
           <p className="regular-16 text-white lg:regular-16 mt-6">
             Starting from the anxiety of the climbers when visiting a new
             climbing location, the possibility of getting lost is very large.
-            That's why we are here for those of you who want to start an
+            That is why we are here for those of you who want to start an
             adventure
           </p>
         </div>

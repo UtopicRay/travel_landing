@@ -5,7 +5,7 @@ import FeatureItem from "./FeatureItem";
 export default function FeatureSection() {
   return (
     <section className="flexCenter flex-col bg-feature-bg bg-center bg-no-repeat overflow-hidden py-24">
-      <div className="max-container padding-container relative flex justify-end w-full">
+      <div className="max-container padding-container relative flex justify-end w-full fade-right">
         <div className="flex flex-1 lg:min-h-[900px]">
           <Image
             src="/img/phone.png"

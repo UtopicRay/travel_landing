@@ -27,7 +27,7 @@ export default function FooterList({
           <>
             {links.map((link, index) =>
               typeof link === "string" ? (
-                <Link href="/" key={index}>
+                <Link href="/" className="cursor-pointer" key={index}>
                   {link}
                 </Link>
               ) : (
@@ -64,6 +64,7 @@ export default function FooterList({
                   width={26}
                   height={26}
                   key={index}
+                  className="cursor-pointer"
                 ></Image>
               ) : (
                 ""

@@ -14,8 +14,10 @@ export default function FeatureItem({
   variant,
 }: FeatureProps) {
   return (
-    <li className="flex flex-col gap-4 w-full">
-      <div className={`p-4 rounded-full bg-green-50 w-20`}>
+    <li className="flex flex-col gap-4 w-full fade-right">
+      <div
+        className={`p-4 rounded-full ${variant === "green" ? "bg-green-50" : "bg-orange-50"} w-20`}
+      >
         <Image src={icon} alt="feature_icon" width={50} height={80}></Image>
       </div>
       <h3 className="bold-32">{title}</h3>
