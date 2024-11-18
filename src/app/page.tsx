@@ -5,9 +5,12 @@ import FeatureSection from "@/components/FeatureSection";
 import GuideSection from "@/components/GuideSection";
 import HeroSection from "@/components/HeroSection";
 import { useAnimation as animations } from "@/useAnimation";
+import { useEffect } from "react";
 
 export default function Home() {
-  animations();
+  useEffect(() => {
+    animations()
+  }, []);
   return (
     <>
       <HeroSection />
