@@ -25,7 +25,7 @@ export default function GuideSection() {
       </div>
       <div className="w-full flexCenter relative fade-up">
         <Image
-          src="/img/boat.png"
+          src="/img/boat.webp"
           alt="boat_img"
           width={1440}
           height={20}

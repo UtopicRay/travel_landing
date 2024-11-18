@@ -28,7 +28,7 @@ export default function DownloadSection() {
           </div>
         </div>
         <div className="flex justify-center items-center fade-up">
-          <Image src="/img/phones.png" alt="phones" width={500} height={800} />
+          <Image src="/img/phones.webp" alt="phones" width={500} height={800} />
         </div>
       </div>
     </section>

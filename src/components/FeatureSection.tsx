@@ -8,7 +8,7 @@ export default function FeatureSection() {
       <div className="max-container padding-container relative flex justify-end w-full fade-right">
         <div className="flex flex-1 lg:min-h-[900px]">
           <Image
-            src="/img/phone.png"
+            src="/img/phone.webp"
             alt="photo_image"
             width={440}
             height={1000}
