@@ -1,11 +1,9 @@
 import Image from "next/image";
-import React from "react";
-
 export default function GuideSection() {
   return (
     <section className="flexCenter flex-col max-container padding-container pb-20">
       <div className="flexBetween w-full gap-3 flex-wrap pb-24">
-        <div className="flex-col">
+        <div className="flex-col fade-right">
           <Image
             src="/img/camp.svg"
             alt="camp_logo"
@@ -17,15 +15,15 @@ export default function GuideSection() {
             Guide you to easy path
           </h2>
         </div>
-        <p className="regular-16 lg:regular-20  text-gray-30 w-full xl:max-w-[520px]">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique,
-          unde? Natus beatae qui nihil tempore ullam temporibus cupiditate
-          voluptatum culpa corrupti repudiandae eius, illum sapiente eligendi.
-          Quod, vero corrupti quas velit dolore omnis, laudantium veniam
-          doloremque dolores non similique! Facilis.
+        <p className="regular-16 lg:regular-20 fade-left text-gray-30 w-full xl:max-w-[520px]">
+          Only with the hilink application you will no longer get lost and get
+          lost again, because we already support offline maps when there is no
+          internet connection in the field. Invite your friends, relatives and
+          friends to have fun in the wilderness through the valley and reach the
+          top of the mountain
         </p>
       </div>
-      <div className="w-full flexCenter relative">
+      <div className="w-full flexCenter relative fade-up">
         <Image
           src="/img/boat.png"
           alt="boat_img"
