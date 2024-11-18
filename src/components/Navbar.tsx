@@ -8,7 +8,7 @@ import { useState } from "react";
 export default function Navbar() {
   const [nav, setNav] = useState<boolean>(false);
   return (
-    <nav className="padding-container max-container flexBetween py-5 relative z-30">
+    <nav className="padding-container max-container flexBetween py-5 w-full z-30">
       <Link href="/">
         <Image src="/img/hilink-logo.svg" alt="hilink" width={80} height={80} />
       </Link>
@@ -31,7 +31,7 @@ export default function Navbar() {
           icon="/img/user.svg"
         ></Button>
       </div>
-      <button onClick={() => setNav(!nav)}>
+      <button className="lg:hidden block" onClick={() => setNav(!nav)}>
         {nav ? (
           <Image
             className="flex lg:hidden"
@@ -42,7 +42,7 @@ export default function Navbar() {
           ></Image>
         ) : (
           <Image
-            className="flex text-black lg:hidden"
+            className="flex lg:hidden"
             src="/img/menu.svg"
             alt="close_icon"
             width={36}

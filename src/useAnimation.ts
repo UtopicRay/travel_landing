@@ -1,4 +1,3 @@
-"use client"
 import { inView } from "motion/react";
 import { useEffect } from "react";
 

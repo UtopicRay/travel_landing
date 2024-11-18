@@ -6,7 +6,7 @@ export default function HeroSection() {
     <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
       <div className="hero-map" />
       {/*Left*/}
-      <div className="flex flex-col flex-1 gap-5 w-full xl:w-1/2 relative z-20 fade-right">
+      <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 fade-right">
         <Image
           src="/img/camp.svg"
           alt="camp_logo"
@@ -55,10 +55,7 @@ export default function HeroSection() {
 
       {/*Rigth*/}
       <div className="relative flex flex-1 items-start ">
-        <div
-          className="
-        bg-gray-90 rounded-lg p-6 flex  relative flex-col gap-2 z-30 w-[280px] fade-left animate-duration-700"
-        >
+        <div className="relative z-20 flex w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8 fade-left animate-duration-700">
           <p className="text-gray-30 regular-16">Location</p>
           <p className="text-gray-10 bold-20">La Habana</p>
           <div className="flexBetween">
