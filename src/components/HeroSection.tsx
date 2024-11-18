@@ -6,7 +6,7 @@ export default function HeroSection() {
     <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
       <div className="hero-map" />
       {/*Left*/}
-      <div className="flex flex-col flex-1 gap-5 w-full xl:w-1/2 relative z-20">
+      <div className="flex flex-col flex-1 gap-5 w-full xl:w-1/2 relative z-20 fade-right">
         <Image
           src="/img/camp.svg"
           alt="camp_logo"
@@ -14,13 +14,11 @@ export default function HeroSection() {
           height={50}
           className="absolute left-[-5px] top-[0px]"
         ></Image>
-        <h1 className="bold-52 lg:bold-88 mt-12">Lorem ipsum dolor sit amet</h1>
+        <h1 className="bold-52 lg:bold-88 mt-12">Putuk Truno Camp Area</h1>
         <p className="regular-16 text-gray-50 max-w-full xl:max-w-[520px]">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem ex
-          dolorum voluptatibus earum, soluta deserunt cumque fugit iste eveniet
-          blanditiis ipsa autem. Exercitationem aliquam, perferendis quia modi
-          quibusdam iste, alias debitis voluptates totam voluptatem nihil
-          similique, et tenetur optio cum.
+          We want to be on each of your journeys seeking the satisfaction of
+          seeing the incorruptible beauty of nature. We can help you on an
+          adventure around the world in just one app
         </p>
         <div className="flex flex-wrap gap-5 my-11">
           <div className="flex items-center">
@@ -59,17 +57,9 @@ export default function HeroSection() {
       <div className="relative flex flex-1 items-start ">
         <div
           className="
-        bg-gray-90 rounded-lg p-6 flex  relative flex-col gap-2 z-30 w-[280px]"
+        bg-gray-90 rounded-lg p-6 flex  relative flex-col gap-2 z-30 w-[280px] fade-left animate-duration-700"
         >
-          <div className="flexBetween">
-            <p className="text-gray-30 regular-16">Location</p>
-            <Image
-              src="/img/close.svg"
-              alt="close_icon"
-              width={26}
-              height={26}
-            ></Image>
-          </div>
+          <p className="text-gray-30 regular-16">Location</p>
           <p className="text-gray-10 bold-20">La Habana</p>
           <div className="flexBetween">
             <div>
